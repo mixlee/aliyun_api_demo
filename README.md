@@ -14,21 +14,21 @@
 
 用法示例:
 # cdn
-python cdn_py2.py Action=DescribeCdnDomainLogs DomainName=appcdn.example.com LogDay=2018-05-20 PageSize=1000
-python cdn_py2.py Action=DescribeCdnDomainLogs DomainName=appcdn.example.com StartTime='2018-04-01T00:00:00Z'  EndTime='2018-05-01T00:00:00Z' PageSize=1000
-python cdn_py2.py Action=DescribeCdnDomainLogs DomainName=appcdn.example.com StartTime='2018-04-01T00:00:00Z'  EndTime='2018-05-01T00:00:00Z' PageSize=500 PageNumber=2
+ python cdn_py2.py Action=DescribeCdnDomainLogs DomainName=appcdn.example.com LogDay=2018-05-20 PageSize=1000
+ python cdn_py2.py Action=DescribeCdnDomainLogs DomainName=appcdn.example.com StartTime='2018-04-01T00:00:00Z'  EndTime='2018-05-01T00:00:00Z' PageSize=1000
+ python cdn_py2.py Action=DescribeCdnDomainLogs DomainName=appcdn.example.com StartTime='2018-04-01T00:00:00Z'  EndTime='2018-05-01T00:00:00Z' PageSize=500 PageNumber=2
 
 # slb
-python slb_py2.py  Action=DescribeRegions
-python slb_py2.py  Action=DescribeLoadBalancers RegionId=cn-qingdao
-python slb_py2.py  Action=DescribeLoadBalancerAttribute RegionId=cn-qingdao LoadBalancerId=15af5f10b61-cn-qingdao-cm5-a01
+ python slb_py2.py  Action=DescribeRegions
+ python slb_py2.py  Action=DescribeLoadBalancers RegionId=cn-qingdao
+ python slb_py2.py  Action=DescribeLoadBalancerAttribute RegionId=cn-qingdao LoadBalancerId=15af5f10b61-cn-qingdao-cm5-a01
 
 # ecs
-python ecs_py2.py  Action=DescribeInstances RegionId=cn-qingdao
+ python ecs_py2.py  Action=DescribeInstances RegionId=cn-qingdao
 
 # ali_api:
-python ali_api_py2.py Service=slb Action=DescribeRegions
-python3 ali_api_py3.py Service=slb Action=DescribeRegions
-python ali_api_py2.py Service=ecs Action=DescribeInstances RegionId=cn-qingdao
-python ali_api_py2.py Service=cdn Action=DescribeCdnDomainLogs DomainName=appcdn.example.com LogDay=2018-05-20 PageSize=1000
+ python ali_api_py2.py Service=slb Action=DescribeRegions
+ python3 ali_api_py3.py Service=slb Action=DescribeRegions
+ python ali_api_py2.py Service=ecs Action=DescribeInstances RegionId=cn-qingdao
+ python ali_api_py2.py Service=cdn Action=DescribeCdnDomainLogs DomainName=appcdn.example.com LogDay=2018-05-20 PageSize=1000
 
