@@ -1,0 +1,5 @@
+# aliyun sdk requirements:
+# pip3 install -r requirements.txt
+aliyun-python-sdk-core-v3
+aliyun-python-sdk-ecs
+aliyun-python-sdk-slb
